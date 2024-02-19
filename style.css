@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 900px;
+    background-color: aliceblue;
+    margin:auto;
+}
+
+.container > form > .row1 label {
+    display: block;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.container > form .row1 input {
+    display: block;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid rgb(102, 102, 102);
+    margin-top: 10px;
+}
+
+.container > form .row1 , .row2  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+
+.container > form .row1 > .col3 p{
+    display: inline-block;
+    margin:0px 5px;
+}
+
+.container > form .row1 > .col3 p label {
+    display: inline-block;
+}
+
+.container > form .row1 > .col3 p input {
+    display: inline-block;
+
+}
+
+
+/* row2 */
+
+.container > form .row2 > .col1 label , .col2 label{
+    font-size: 18px;
+    display: block;
+}
+
+.container > form .row2 > .col1 select  {
+    padding:10px;
+    width:390px;
+    border:1px solid rgb(154, 154, 154);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top:9px;
+}
+
+
+.container > form .row2 > .col2 input{
+    padding:10px;
+    width:390px;
+    border:1px solid rgb(154, 154, 154);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+
+/* row 3 */
+
+.container > form .row3 > .col2 div:nth-child(2) img{
+    width:50px;
+}
+
+.container > form .row3 {
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.container > form .row3 > .col1 label , .col2 label{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+.container > form .row3 > .col1 textarea{
+    border:1px solid gray;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.container > form .row3 > .col2 div:nth-child(1) input{
+    border-radius: 10px;
+    border:1px solid rgb(151, 149, 149);
+    padding:10px;
+    width:390px;
+    margin-bottom: 20px;
+}
+
+
+.container > form .row4 {
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+}
+
+.container > form .row4 > div label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+.container > form .row4 > div input , select {
+    width:200px;
+    padding:10px;
+    border-radius: 10px;
+    border:1px solid rgb(166, 166, 166);
+}
+
+.container > form .row4 > .col3 {
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+}
+
+.container > form .row4 > .col3 input {
+    width:70px;
+}
+
+.container > form .row4 > .col3 div:nth-child(3) input{
+    width:250px;
+}
+
+.container > form .row5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px;
+}
+
+.container > form .row5 > div label {
+    display: block;
+    font-size: 18px;
+}
+
+.container > form .row5 > div input {
+    width:400px;
+    margin-top:9px;
+    height: 40px;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.container > form .row5 > div:nth-child(2) input {
+    width:400px;
+    margin-top:0px;
+    height: 40px;
+}
+
+
+.container > form .row6 {
+    padding:30px;
+}
+
+.container > form .row6 label {
+    font-size: 18px;
+    margin-right: 9px;
+}
+
+.container > form .row7  {
+    padding:30px;
+}
+.container > form .row7 input {
+    background-color: rgb(0, 145, 255);
+    width:840px;
+    padding:20px;
+    border-radius: 20px;
+    border:1px solid black;
+    outline:none;
+}
+
+.container > form .row7 input[type="submit"]{
+    font-size: 30px;
+}
+
+
+
+
